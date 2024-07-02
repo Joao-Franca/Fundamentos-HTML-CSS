@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* DEIXA O ELEMENTO RESPONSIVO QUANDO DIMINUI A TELA*/
+    gap: 20px;       /*   DA UM ESPAÇAMENTO ENTRE OS ITENS DENTRO DA DIV*/
+    /* justify-content: space-between;      CRIA UM ESPAÇAMENTO IGUAL ENTRE OS ITENS DA DIV */
+    align-content: center;
+    height: 100vh;      /* PEGA 100% DA TELA*/
+    /* place-content: center;                      SERIA O JUSTIFY E ALIGN JUNTOS */
+}
+
+body  {
+    margin: 0px;
+}
+h2 {
+   background-color: #e7e7e7;
+   border-radius: 4px;
+   padding: 20px;
+   margin: 0px;
+   flex: 1;        /*   ATALHO PARA DEFIRNIR ESSAS TRES PROPRIEDADES flex-grow: 1;  QUE FEZ DISTRIBUIR ESPAÇO EM BRANCO ENTRE OS ELEMENTOS  flex-basics: auto; SIGNIFICA QUE O CRESCIMENTO DO FLEX-GROW VAI COMEÇAR VAZIO  flex-shrink: 1;  DETERMINA SE O ELEMENTO PODE SER DIMINUIDO OU NAO*/
+
+
+   /*SE TIVER UTILIZANDO flex: 1; NÃO PRECISA UTILIZAR justify-content: center;*/
+}
